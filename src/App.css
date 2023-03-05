@@ -1,0 +1,73 @@
+body{ 
+  padding-left: 2%;
+  padding-right: 2%;
+  text-shadow: 1px 1px;
+  letter-spacing: 1.2px;
+}
+#bglines{
+  background-image: url("./assets/bglines.png"), linear-gradient(to bottom right,rgb(9, 238, 9), blue);
+  background-blend-mode: multiply;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#thenavbar {
+  z-index: 1;
+}
+#testimonial {
+  transition: transform 1s ease-out;
+}
+#testimonial:hover {
+  transform: scale(1.10); 
+}
+#testimonial1 {
+  transition: transform 1s ease-out;
+}
+#testimonial1:hover {
+  transform: scale(1.10);
+}
+#hideLeft {
+  position:relative;
+  left:-100%; 
+}
+#hideRight {
+  position:relative;
+  right:-100%; 
+}
+#hidemainpicture {
+  position:relative;
+  left:-150%;
+}
+#hideFrontEnd {
+  position: relative;
+  left: -100%
+}
+#hideBackEnd {
+  position: relative;
+  right: -100%
+}
+/* _____________________ */
+#name {
+  position:relative;
+  left:0; 
+  transition: all 2s ease-out; 
+}
+#mainpicture{
+  position:relative;
+  left:0; 
+  transition: all 2s ease-out;
+}
+#picture{
+  position:relative;
+  right:0; 
+  transition: all 2s ease-out;
+}
+#frontEnd {
+  position:relative;
+  left:0; 
+  transition: all 2.5s ease-out; 
+}
+#backEnd {
+  position:relative;
+  right:0; 
+  transition: all 2.5s ease-out; 
+}
