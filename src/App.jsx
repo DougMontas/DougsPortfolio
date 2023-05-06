@@ -6,6 +6,9 @@ import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import ContactMe from "./components/ContactMe";
 import Testimonials from "./components/Testimonials";
+import About from "./components/About";
+
+
 
 function App() {
   window.onload = () => {
@@ -15,15 +18,19 @@ function App() {
   };
 
   return (
+    <>
     <div className="bg-[url('/src/assets/cool-background.png')] bg-auto">
       <Navbar />
       <Name />
       <MainPicture />
+      <About />
       <Skills />
       <Testimonials />
       <ContactMe />
       <Footer />
+
     </div>
+    </>
   );
 }
 

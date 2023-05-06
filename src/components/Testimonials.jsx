@@ -3,7 +3,7 @@ import MyPic from "../assets/MyPicNoBg.png";
 import Danny from "../assets/Danny.png";
 import Jen from "../assets/jen.png";
 import Steph from "../assets/steph.png";
-import Tony from "../assets/tony.png";
+import Shane from "../assets/SHANE BELL.png";
 
 export default function Testimonials() {
   return (
@@ -66,21 +66,17 @@ export default function Testimonials() {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-40 rounded w-full object-contain object-center mb-6"
-                  src={Tony}
+                  src={Shane}
                   alt="content"
                 />
                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
                   Profession
                 </h3>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                  Blockchain Developer
+                  Software Developer - Instructor
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Collaborating with "Mr. Montas" was a real joy! His best trait
-                  is that he quickly adapts to different coding conventions,
-                  allowing us as a team to work together effortlessly. In
-                  addition, he has a knack for finding creative solutions in an
-                  efficient manner which always impresses me.
+                Doug was an excellent student, demonstrating a genuine understanding of the material during his time in my course.  During his time working on his final project, he brought up concerns and questions that showed a genuine understanding of the material and a desire to learn more.  I strongly believe that Doug will be a real asset on any team he ends up working with.
                 </p>
               </div>
             </div>

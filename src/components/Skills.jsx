@@ -10,11 +10,11 @@ export default function Skills() {
     // onscroll.removeEventListener();
   };
   return (
-    <div id="skills">
-      <section className="text-gray-600 body-font text-lg">
-        <div className="container px-1 py-24 mx-auto">
-          <div className="text-center mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
+    <div id="skills" className="">
+      <section className=" text-gray-600 body-font text-lg">
+        <div className="container px-31 py-24 mx-auto ">
+          <div className="text-center mb-20 ">
+            <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4 ">
               Skills & Experience
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto italic">
@@ -23,12 +23,12 @@ export default function Skills() {
               big.
             </p>
           </div>
-          <div className="flex flex-wrap justify-evenly ml-2 max-sm:ml-5 ">
-            <div id="hideFrontEnd" className="p-4 lg:w-1/4  sm:w-1/2 w-full">
+          <div className="mx-auto w-full inline-flex gap-60 justify-center">
+            <div id="hideFrontEnd" className="p-4  lg:w-1/4  sm:w-1/2 w-full">
               <h2 className="font-medium title-font tracking-widest text-gray-900 mb-4 text-2xl text-center underline sm:text-left">
                 FRONTEND
               </h2>
-              <nav className="flex flex-col text-xl sm:items-start sm:text-left text-center items-center -mb-1 space-y-3.5">
+              <nav className="w-56 flex flex-col text-xl sm:items-start sm:text-left text-center items-center -mb-1 space-y-3.5">
                 <a>
                   <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
@@ -233,7 +233,10 @@ export default function Skills() {
           </div>
           <a
             href={Resume}
-            target='_blank' type="application/pdf" rel="alternate" media="print"
+            target="_blank"
+            type="application/pdf"
+            rel="alternate"
+            media="print"
           >
             <button className="flex  mx-auto mt-16 text-white bg-sky-400  border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg shadow-md shadow-gray-900 ease-out duration-500 transform hover:scale-100 hover:translate-y-2">
               Download CV

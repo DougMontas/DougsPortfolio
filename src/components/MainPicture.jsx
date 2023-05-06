@@ -20,12 +20,12 @@ export default function MainPicture() {
             </h1>
             <p className="mb-8 text-white leading-relaxed italic">
               "My dream is to excel as a developer. I enjoy learning new things.
-              Whether it is web, software or blockchain, I am exicted to create
-              amazing end-products and explore new technologies."
+              Whether it is web, software or blockchain development, I am exicted to create
+              amazing products and explore new technologies."
             </p>
             <div className="flex justify-center">
               <a
-                href="https://github.com/DougMontas/DougsPortfolio"
+                href="https://github.com/DougMontas?tab=repositories"
                 target="_blank"
               >
                 <button className="inline-flex text-white bg-sky-400 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg shadow-md shadow-gray-900 ease-out duration-500 transform hover:scale-100 hover:translate-y-2">

@@ -12,6 +12,11 @@ body{
 }
 #thenavbar {
   z-index: 1;
+  position: fixed;
+  bottom:0%;
+  margin-left: auto;
+  
+  /* padding-left: 50%; */
 }
 #testimonial {
   transition: transform 1s ease-out;
